@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lora&display=swap');
+
+body {
+  background-color: #FFFAFC;
+  font-family: lora;
+  color: #703D57;
+  font-size: 18px;
+  line-height: normal;
+  text-align: center;
+}
+
+h1 {
+  color: #957186;
+  font-family: roboto;
+  font-size: 32px;
+  line-height: normal;
+}
+
+h2 {
+  font-size: 22px;
+  line-height: normal;
+}
+
+a {
+  text-decoration: none;
+  color: #703D57;
+}
+
+.container {
+  width: 500px;   /* Définit la largeur */
+  margin: 0 auto; /* Définit automatiquement les marges à gauche/droite */
+}
+
+.card {
+  background-color: white;
+  border-radius: 2%;
+  box-shadow: 10%;
+  padding: 30px;
+  margin: 5px;
+  border: 1px solid #957186;
+}
+
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+}
+
+.img-circle {
+  border-radius: 50%;
+}
+
+@media (max-width: 960px) {
+  /* Pour un écran < 960px, cette classe CSS s'applique */
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  /* Pour un écran < 720px, cette classe CSS s'applique */
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  /* Pour un écran < 540px, cette classe CSS s'applique */
+  .container {
+    width: 300px;
+  }
+}
